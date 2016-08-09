@@ -1,0 +1,46 @@
+.cards{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition:all 0.5s ease;
+}
+
+.cards div{
+  flex:0 0 33%;
+}
+.cards div.zoom{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #2980b9;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  -webkit-transition:all 0.5s ease;
+}
+
+.cards div.zoom span{
+  background-color: transparent;
+  color:#fff;
+  flex:1;
+  font-size: ;10rem;
+  -webkit-transition:all 0.5s ease;
+}
+
+.cards span{
+    display: block;
+    margin: 2px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+  -webkit-transition:all 0.5s ease;
+  }
